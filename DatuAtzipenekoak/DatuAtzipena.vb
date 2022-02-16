@@ -91,13 +91,15 @@ Public Class DatuAtzipena
         End Try
     End Sub
 
-    Public Shared Function ErabiltzaileaTxertatu(ByVal email As String, ByVal izena As String, ByVal abizena As String, ByVal galderaEzkutua As String, ByVal erantzuna As String, ByVal na As Integer, ByVal egiaztatzeZenbakia As Integer, ByVal egiaztatua As Boolean, ByVal lantaldeKodea As String, ByVal azpitaldeKodea As String, ByVal erabiltzaileMota As String, ByVal pasahitza As String)
+    Public Shared Function ErabiltzaileaTxertatu(ByVal email As String, ByVal izena As String, ByVal abizena As String, ByVal galderaEzkutua As String, ByVal erantzuna As String, ByVal na As Integer, ByVal egiaztatzeZenbakia As Integer, ByVal egiaztatua As Boolean, ByVal lantaldeKodea As String, ByVal azpitaldeKodea As String, ByVal erabiltzaileMota As String, ByVal pasahitza As String) As Integer
         Dim sql As String = "INSET INTO Erabiltzaileak VALUES('" & email & "', '" & izena & "', '" & abizena & "', '" & galderaEzkutua & "', 
                             '" & erantzuna & "', '" & na & "', " & egiaztatzeZenbakia & ", " & egiaztatua & ", '" & lantaldeKodea & "', '" & azpitaldeKodea & "',
                             '" & erabiltzaileMota & "', '" & pasahitza & "')"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Try
             ErabiltzaileaTxertatu = comSGTA_DB_Erabiltzaileak.ExecuteNonQuery()
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaTxertatzean("sql arazoa txertatzean")
         Catch ex As Exception
             Throw New Salbuespenak.ErroreaTxertatzean()
         End Try
