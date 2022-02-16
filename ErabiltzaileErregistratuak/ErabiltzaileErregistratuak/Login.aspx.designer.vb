@@ -32,13 +32,13 @@ Partial Public Class WebForm2
     Protected WithEvents lblEmail As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control TextBox1.
+    '''Control txtEmail.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control lblPasahitza.
@@ -50,13 +50,13 @@ Partial Public Class WebForm2
     Protected WithEvents lblPasahitza As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control TextBox2.
+    '''Control txtPasahitza.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtPasahitza As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control btn2Login.
@@ -66,6 +66,15 @@ Partial Public Class WebForm2
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btn2Login As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control lblErrMezua.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblErrMezua As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control btn2Erregistratu.

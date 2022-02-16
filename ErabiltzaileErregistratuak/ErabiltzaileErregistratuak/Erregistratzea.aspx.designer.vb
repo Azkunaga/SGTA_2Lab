@@ -201,4 +201,31 @@ Partial Public Class WebForm3
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtPasahitza As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control btnErregistratu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnErregistratu As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control hylEgiaztatu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents hylEgiaztatu As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''Control lblErrMezu.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblErrMezu As Global.System.Web.UI.WebControls.Label
 End Class

@@ -12,15 +12,17 @@
         <div>
             <asp:Label ID="lblEmail" runat="server" Text="Emaila:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="TextBox1" runat="server" style="margin-right: 0px" Width="869px"></asp:TextBox>
+            <asp:TextBox ID="txtEmail" runat="server" style="margin-right: 0px" Width="869px"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblPasahitza" runat="server" Text="Pasahitza:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="TextBox2" runat="server" Width="849px"></asp:TextBox>
+            <asp:TextBox ID="txtPasahitza" runat="server" Width="849px"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="btn2Login" runat="server" Text="Log In" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblErrMezua" runat="server" Text="   "></asp:Label>
             <br />
             <br />
             <asp:Button ID="btn2Erregistratu" runat="server" Text="Erregistratu" />
