@@ -13,6 +13,7 @@
             DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaTxertatu(txtEmail.Text, txtIzena.Text, txtAbizena.Text, txtGalderaEzkutua.Text, txtErantzuna.Text, txtNAN.Text, egiaztatzeZenbakia, 0, txtLanKodea.Text, txtAzpiKodea.Text, txtErabMota.Text, txtPasahitza.Text)
 
             hylEgiaztatu.Enabled = True
+            hylEgiaztatu.NavigateUrl = hylEgiaztatu.NavigateUrl & "?emaila=" & txtEmail.Text & "&egZenb" & egiaztatzeZenbakia
         End If
     End Sub
 End Class

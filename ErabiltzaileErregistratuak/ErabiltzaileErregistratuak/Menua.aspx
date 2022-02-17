@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <br />
+            <asp:HyperLink ID="hylPasaAlda" runat="server" NavigateUrl="~/PasahitzaAldatu.aspx">Pasahitza Aldatu</asp:HyperLink>
             <br />
             <br />
             <asp:HyperLink ID="hylSaioaAmaitu" runat="server" NavigateUrl="Amaiera.aspx">Saioa amaitu</asp:HyperLink>
