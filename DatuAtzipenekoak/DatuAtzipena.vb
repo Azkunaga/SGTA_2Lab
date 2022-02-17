@@ -105,20 +105,24 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function ErabiltzaileaLortu(ByVal email As String) As SqlDataReader
-        Dim sql As String = "SELECT * FROM Erabiltzaileak WHERE email=" & email
+        Dim sql As String = "SELECT * FROM Erabiltzaileak WHERE email='" & email & "'"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Try
             Return comSGTA_DB_Erabiltzaileak.ExecuteReader
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
         Catch ex As Exception
             Throw New Salbuespenak.ErroreaIrakurtzean()
         End Try
     End Function
 
     Public Shared Function ErabiltzaileaEgiaztatu(ByVal email As String) As Integer
-        Dim sql As String = "UPDATE Erabiltzaileak SET egiaztatu=True WHERE email=" & email
+        Dim sql As String = "UPDATE Erabiltzaileak SET egiaztatu=True WHERE email='" & email & "'"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Try
             ErabiltzaileaEgiaztatu = comSGTA_DB_Erabiltzaileak.ExecuteNonQuery
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaEguneratzean("Sql arazoa eguneratzean")
         Catch ex As Exception
             Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
