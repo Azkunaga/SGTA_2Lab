@@ -50,8 +50,8 @@
                         Dim na As Integer = Console.ReadLine
                         Console.WriteLine("[egiaztatzeZenbakia] INT          :")
                         Dim egiaztatzeZenbakia As Integer = Console.ReadLine
-                        Console.WriteLine(" [egiaztatua]         BIT         :")
-                        Dim egiaztatua As Boolean = Console.ReadLine
+                        'Console.WriteLine(" [egiaztatua]         BIT         :")
+                        'Dim egiaztatua As Boolean = Console.ReadLine
                         Console.WriteLine("[lantaldeKodea]      NVARCHAR (50):")
                         Dim lantaldeKodea As String = Console.ReadLine
                         Console.WriteLine("[azpitaldeKodea]     NVARCHAR (50):")
@@ -60,7 +60,7 @@
                         Dim erabiltzaileMota As String = Console.ReadLine
                         Console.WriteLine("[pasahitza]          NVARCHAR (16):")
                         Dim pasahitza As String = Console.ReadLine
-                        DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaTxertatu(email, izena, abizena, galderaEzkutua, erantzuna, na, egiaztatzeZenbakia, egiaztatua, lantaldeKodea, azpitaldeKodea, erabiltzaileMota, pasahitza)
+                        DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaTxertatu(email, izena, abizena, galderaEzkutua, erantzuna, na, egiaztatzeZenbakia, lantaldeKodea, azpitaldeKodea, erabiltzaileMota, pasahitza)
                         Console.WriteLine("Dena ondo joan da.")
                     Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaTxertatzean
                         Console.WriteLine(ex.Message)
