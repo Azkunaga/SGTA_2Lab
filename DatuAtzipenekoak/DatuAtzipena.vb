@@ -130,10 +130,12 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function ErabiltzailearenPasahitzaAldatu(ByVal email As String, ByVal pasahitza As String) As Integer
-        Dim sql As String = "UPDATE Erabiltzaileak SET pashaitza='" & pasahitza & "' WHERE email=" & email
+        Dim sql As String = "UPDATE Erabiltzaileak SET pasahitza='" & pasahitza & "' WHERE email='" & email & "'"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Try
             ErabiltzailearenPasahitzaAldatu = comSGTA_DB_Erabiltzaileak.ExecuteNonQuery
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaEguneratzean("Sql arazoa pashaizta eguneratzean")
         Catch ex As Exception
             Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
