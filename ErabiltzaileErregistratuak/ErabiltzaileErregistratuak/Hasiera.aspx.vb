@@ -10,6 +10,6 @@
     End Sub
 
     Protected Sub btnErregistratu_Click(sender As Object, e As EventArgs) Handles btnErregistratu.Click
-        Response.Redirect(“Erregistratu.aspx”)
+        Response.Redirect(“Erregistratzea.aspx”)
     End Sub
 End Class
