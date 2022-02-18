@@ -5,17 +5,22 @@ Public Class WebForm2
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        DatuAtzipenekoak.DatuAtzipena.Konektatu()
+
     End Sub
 
     Protected Sub btn2Login_Click(sender As Object, e As EventArgs) Handles btn2Login.Click
+
         Dim drErabiltzaileak As SqlDataReader
         Try
-
+            DatuAtzipenekoak.DatuAtzipena.Konektatu()
             drErabiltzaileak = DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaLortu(txtEmail.Text)
-
+        Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
+            lblErrMezua.Text = ex.Message
+            DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
+            Exit Sub
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaIrakurtzean
             lblErrMezua.Text = ex.Message
+            DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             Exit Sub
         End Try
         If drErabiltzaileak.Read() Then
@@ -31,7 +36,7 @@ Public Class WebForm2
     End Sub
 
     Protected Sub btn2Erregistratu_Click(sender As Object, e As EventArgs) Handles btn2Erregistratu.Click
-        Response.Redirect("Erregistratu.aspx")
+        Response.Redirect("Erregistratzea.aspx")
         DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
     End Sub
 

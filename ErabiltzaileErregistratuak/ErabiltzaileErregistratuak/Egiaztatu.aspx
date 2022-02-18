@@ -10,6 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+            <br />
+            <asp:Button ID="btnLogin" runat="server" Enabled="False" Text="LogIn" />
+            <br />
+            <br />
+            <asp:Label ID="lblErroreMezua" runat="server" Text="   "></asp:Label>
         </div>
     </form>
 </body>

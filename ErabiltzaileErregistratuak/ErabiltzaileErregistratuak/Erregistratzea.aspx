@@ -32,7 +32,7 @@
             <asp:TextBox ID="txtGalderaEzkutua" runat="server" Width="323px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblErantzuna" runat="server" Text="Erantzuna: "></asp:Label>
-            <asp:TextBox ID="txtErantzuna" runat="server" Width="380px"></asp:TextBox>
+            <asp:TextBox ID="txtErantzuna" runat="server" Width="358px"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblLantaldeKodea" runat="server" Text="Lantalde kodea:"></asp:Label>
@@ -41,7 +41,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblAzpiKodea" runat="server" Text="Azpitalde kodea:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="txtAzpiKodea" runat="server" Width="339px"></asp:TextBox>
+            <asp:TextBox ID="txtAzpiKodea" runat="server" Width="314px"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lblErabMota" runat="server" Text="Erabiltzaile mota:"></asp:Label>
@@ -62,7 +62,7 @@
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="lblErrMezu" runat="server" Text=" "></asp:Label>
+            <asp:Label ID="lblErrMezu" runat="server" Text=" " ForeColor="Red"></asp:Label>
         </div>
     </form>
 </body>

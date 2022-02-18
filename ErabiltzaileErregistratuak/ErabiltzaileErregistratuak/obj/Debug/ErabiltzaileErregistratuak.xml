@@ -370,6 +370,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:ErabiltzaileErregistratuak.WebForm4._btnLogin">
+<summary>
+Control btnLogin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm4._lblErroreMezua">
+<summary>
+Control lblErroreMezua.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:ErabiltzaileErregistratuak.WebForm5._form1">
 <summary>
 Control form1.
@@ -544,6 +562,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:ErabiltzaileErregistratuak.WebForm8._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm8._lblAgurra">
+<summary>
+Control lblAgurra.
 </summary>
 <remarks>
 Campo generado automáticamente.
