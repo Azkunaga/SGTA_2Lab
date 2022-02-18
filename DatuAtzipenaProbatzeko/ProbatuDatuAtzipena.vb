@@ -82,7 +82,7 @@
                     Try
                         Console.WriteLine("Sartu erabiltzailearen emaila:")
                         Dim email As String = Console.ReadLine
-                        DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaLortu(email)
+                        DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaEgiaztatu(email)
                         Console.WriteLine("Dena ondo joan da.")
                     Catch ex As Exception
                         Console.WriteLine(ex.Message)

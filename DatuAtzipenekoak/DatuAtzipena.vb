@@ -117,8 +117,9 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function ErabiltzaileaEgiaztatu(ByVal email As String) As Integer
-        Dim sql As String = "UPDATE Erabiltzaileak SET egiaztatu=True WHERE email='" & email & "'"
+        Dim sql As String = "UPDATE Erabiltzaileak SET egiaztatua=@egiaztatua WHERE email='" & email & "'"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        comSGTA_DB_Erabiltzaileak.Parameters.AddWithValue("@egiaztatua", True)
         Try
             ErabiltzaileaEgiaztatu = comSGTA_DB_Erabiltzaileak.ExecuteNonQuery
         Catch ex As SqlException
