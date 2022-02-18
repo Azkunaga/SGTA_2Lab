@@ -20,6 +20,9 @@
             <asp:TextBox ID="txtNewPass2" runat="server" Width="292px"></asp:TextBox>
             <br />
             <asp:Button ID="btnPasaAlda" runat="server" Text="Pasahitza aldatu" />
+            <br />
+            <br />
+            <asp:Button ID="btnLogIn" runat="server" Text="LogIn" />
         </div>
     </form>
 </body>
