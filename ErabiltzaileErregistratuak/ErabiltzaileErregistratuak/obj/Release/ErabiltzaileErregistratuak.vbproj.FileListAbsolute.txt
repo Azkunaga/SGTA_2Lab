@@ -56,7 +56,6 @@ C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistra
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.pdb
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Release\ErabiltzaileErregistratuak.vbproj.AssemblyReference.cache
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Release\ErabiltzaileErregistratuak.Resources.resources
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Release\ErabiltzaileErregistratuak.vbproj.GenerateResource.cache
 C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Release\ErabiltzaileErregistratuak.vbproj.CoreCompileInputs.cache

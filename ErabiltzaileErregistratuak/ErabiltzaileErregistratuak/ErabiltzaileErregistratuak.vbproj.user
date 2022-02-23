@@ -9,7 +9,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Release|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>C:\Users\USU\source\repos\lab2\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\My Project\PublishProfiles\SGTA-Lab02-Azkunaga-Plazaola - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>SGTA-Lab02-Azkunaga-Plazaola - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
